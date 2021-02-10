@@ -13,7 +13,6 @@ function draw() {
 
   let size = map(value, 0, 1, 0, 150)
 
-  noStroke()
   for (let i = 0; i < 10; i++) {
     fill('white')
     circle(random(windowWidth), random(windowHeight), size)
